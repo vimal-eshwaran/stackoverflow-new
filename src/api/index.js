@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API = axios.create({ baseURL: "https://stack-overflow-clone-ecnc.onrender.com/"})
+const API = axios.create({ baseURL: "https://syackoverflow-backend-x7qg.onrender.com"})
 
 API.interceptors.request.use((req) => {
     if(localStorage.getItem('Profile')){
